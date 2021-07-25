@@ -1,0 +1,37 @@
+.orders-table {
+    min-width: 769px;
+}
+.pagination li {
+    border: 1px solid #DEDEDE;
+}
+.pagination li:first-child {
+    border-radius: 5px 0 0 5px;
+}
+.pagination li:last-child {
+    border-radius: 0 5px 5px 0;
+}
+.pagination li a {
+    padding: 6px 15px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pagination a:hover {
+    background-color: #01BEDE;
+    color: #fff;
+}
+
+@media screen and (max-width: 576px) {
+    /* .pagination {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .pagination li {
+        width: 25px;
+        height: 25px; 
+        margin: 0;
+    } */
+}

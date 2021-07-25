@@ -1,0 +1,5 @@
+@layer components {
+    .header-active {
+      @apply bg-blue text-white;
+    }
+  }

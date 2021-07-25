@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;600;700&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+  font-family: "Cabin", sans-serif;
+}
+
+.hide-scroll::-webkit-scrollbar {
+  display: none;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* @layer components {
+  .btn {
+    @apply px-4 py-2 bg-blue-600 text-white rounded;
+  }
+} */
+
+.container {
+  padding: 0 30px;
+}
+.no-padding {
+  padding: 0 !important;
+}
+
+/* custom font-sizes */
+.ctext-xs {
+  font-size: 14px;
+}
+.ctext-sm {
+  font-size: 15px;
+}
+.ctext-base {
+  font-size: 16px;
+}
+.ctext-lg {
+  font-size: 18px;
+}
+.ctext-20 {
+  font-size: 20px;
+}
+.ctext-xl {
+  font-size: 24px;
+}
+.ctext-2xl {
+  font-size: 28px;
+}
+
+@media (max-width: 992px) {
+  .container {
+    padding: 0 15px;
+  }
+  .ctext-xs {
+    font-size: 12px;
+  }
+  .ctext-sm {
+    font-size: 13px;
+  }
+  .ctext-base {
+    font-size: 14px;
+  }
+  .ctext-lg {
+    font-size: 16px;
+  }
+  .ctext-xl {
+    font-size: 22px;
+  }
+  .ctext-2xl {
+    font-size: 26px;
+  }
+}
+
+@media (max-width: 769px) {
+  .container {
+    padding: 0 15px;
+  }
+  .ctext-xs {
+    font-size: 12px;
+  }
+  .ctext-sm {
+    font-size: 13px;
+  }
+  .ctext-base {
+    font-size: 14px;
+  }
+  .ctext-lg {
+    font-size: 14px;
+  }
+  .ctext-xl {
+    font-size: 20px;
+  }
+  .ctext-2xl {
+    font-size: 22px;
+  }
+}
+
+@media (max-width: 576px) {
+  .container {
+    padding: 0 15px;
+  }
+  .ctext-xs {
+    font-size: 12px;
+  }
+  .ctext-sm {
+    font-size: 13px;
+  }
+  .ctext-base {
+    font-size: 14px;
+  }
+  .ctext-lg {
+    font-size: 14px;
+  }
+  .ctext-xl {
+    font-size: 19px;
+  }
+  .ctext-2xl {
+    font-size: 22px;
+  }
+}
