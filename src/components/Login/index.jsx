@@ -6,9 +6,9 @@ import { setLogin } from "../../redux/common";
 
 const Login = () => {
   const route = useHistory();
-  const dispatch = useDispatch();
 
   useEffect(() => {
+    const dispatch = useDispatch();
     dispatch(setLogin(false))
   }, [])
 
