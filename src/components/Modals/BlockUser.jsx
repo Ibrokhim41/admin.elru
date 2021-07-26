@@ -5,7 +5,7 @@ const BlockUser = ({ block, setBlock }) => {
   return (
     <div
       className={`z-50 fixed top-0 transform transition-all duration-300 overflow-hidden ${
-        block ? "translate-x-0" : "translate-x-full"
+        block ? "translate-y-0" : "translate-y-full"
       } bg-white w-screen h-screen flex flex-col justify-center items-center`}
     >
       <div className="text-black ctext-xl font-bold mb-4 sm:mb-8">

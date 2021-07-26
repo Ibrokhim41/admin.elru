@@ -51,7 +51,7 @@ const Clients = () => {
           <div className="col-span-2 text-blue ml-1">+998 99 314 42 63</div>
           <div 
             onClick={() => setBlock(true)}
-            className="col-span-1 text-red flex justify-end items-center cursor-pointer group mr-10">
+            className="relative col-span-1 text-red flex justify-end items-center cursor-pointer group mr-10">
             <div className="mr-6">Заблокировать</div>
             <MdBlock className="absolute ml-px text-xl transition-all transform group-hover:rotate-45" />
           </div>
