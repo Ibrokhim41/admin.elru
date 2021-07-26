@@ -23,7 +23,7 @@ const Header = () => {
 
   return (
     <div
-      className={`fixed top-0 z-50 ${
+      className={`fixed top-0 z-40 ${
         login ? "block" : "hidden"
       } shadow-md w-full container-full bg-white`}
     >

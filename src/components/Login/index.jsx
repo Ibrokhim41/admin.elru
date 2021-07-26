@@ -1,4 +1,3 @@
-import { useEffect } from "react";
 import { useDispatch } from "react-redux";
 import { useHistory } from "react-router-dom";
 import Logo from "../../assets/images/logo_elru.svg";
@@ -6,14 +5,11 @@ import { setLogin } from "../../redux/common";
 
 const Login = () => {
   const route = useHistory();
+  const dispatch = useDispatch();
 
-  useEffect(() => {
-    const dispatch = useDispatch();
-    dispatch(setLogin(false))
-  }, [])
 
   return (
-    <div className="w-screen h-screen flex flex-col items-center justify-center">
+    <div className="z-50 fixed w-screen h-screen flex flex-col items-center justify-center bg-white">
       <div className="flex items-end">
         <img src={Logo} alt="logo" className="w-52 sm:w-60" />
         <div className="text-grey-dark ctext-2xl ml-2">Admin</div>
