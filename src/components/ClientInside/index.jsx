@@ -6,7 +6,7 @@ const ClientInside = ({ modal, setModal }) => {
     <div
       className={`${
         modal ? "translate-y-0" : "-translate-y-full"
-      } transition-all transform fixed w-screen h-screen overflow-scroll top-0 z-50 bg-grey-dark p-8`}
+      } transition-all transform fixed w-screen h-screen overflow-scroll top-0 left-0 z-50 bg-grey-dark p-1 sm:p-8`}
     >
       <div className="grid grid-cols-12 rounded-md bg-white">
         {/* left */}

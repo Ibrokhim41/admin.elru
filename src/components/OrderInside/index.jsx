@@ -6,7 +6,7 @@ import { IoMdClose } from "react-icons/io";
 const OrderInside = ({modal, setModal}) => {
 
   return (
-    <div className={`${modal ? 'translate-y-0' : '-translate-y-full'} transform transition-all fixed w-screen h-screen overflow-scroll left-0 z-50 bg-grey-dark p-8`}>
+    <div className={`${modal ? 'translate-y-0' : '-translate-y-full'} transform transition-all fixed w-screen h-screen overflow-scroll left-0 z-50 bg-grey-dark p-1 sm:p-8`}>
       <div className="grid grid-cols-12 rounded-md bg-white">
         {/* left */}
         <div className="col-span-12 md:col-span-4 p-6 border-r border-grey-border">
